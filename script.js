@@ -1,7 +1,9 @@
 var key = 'AIzaSyBz2Tt3NTX5XJCpZ7WpWsdWJurlq42bUvM';
-
+var chanal = 'AndrewAmelin';
+var id = 'UCuWDPleC6fu-WyDxZmp76SA';
+var like = "LLuWDPleC6fu-WyDxZmp76SA";
         // var key = 'MY_KEY';
-        var urlReg ='https://www.googleapis.com/youtube/v3/playlistItems?key='+key;
+        var urlReg ='https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=20&playlistId=PL-osiE80TeTvGhHkpvfmKWOiIPF8UVy6c&key='+key;
         // var urlReq = 'https://www.googleapis.com/youtube/v3/videos?id='+vid+'&key='+key+'&part=snippet,contentDetails,statistics';
         console.log("Request URI:",urlReg);
         $.ajax({
@@ -14,10 +16,12 @@ var key = 'AIzaSyBz2Tt3NTX5XJCpZ7WpWsdWJurlq42bUvM';
               console.log(data);
 
 
+// https://www.googleapis.com/youtube/v3/channels?part=contentDetails&forUsername=AndrewAmelin&key=
+// https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=20&playlistId=PL-osiE80TeTvGhHkpvfmKWOiIPF8UVy6c&key=
 
+// https://www.googleapis.com/youtube/v3/playlists?part=snippet&channelId=UCuWDPleC6fu-WyDxZmp76SA&maxResults=20&key=
 
-
-
+// https://www.googleapis.com/youtube/v3/playlistItems?part=playlistItem&playlistId=playlistId&videoId=videoId&key=AIzaSyBz2Tt3NTX5XJCpZ7WpWsdWJurlq42bUvM
 
 
 
